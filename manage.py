@@ -4,8 +4,8 @@ import sys
 
 if __name__ == "__main__":
     # hack to prevent admin promt
-    if 'syncdb' in sys.argv:
-        sys.argv.append('--noinput')
+    #if 'syncdb' in sys.argv:
+    #    sys.argv.append('--noinput')
 
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "PLEX.settings")
 
